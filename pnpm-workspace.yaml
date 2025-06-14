@@ -2,9 +2,9 @@ packages:
   - '*/src'
 
 catalog:
-  '@slidev/cli': ^0.50.0-beta.5
-  '@slidev/theme-default': latest
-  playwright-chromium: ^1.48.2
+  '@slidev/cli': ^51.8.2
+  '@slidev/theme-default': ^0.25.0
+  playwright-chromium: ^1.53.0
 
 onlyBuiltDependencies:
   - esbuild
