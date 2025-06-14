@@ -1,10 +1,14 @@
 {
   "type": "module",
-  "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "slidev build --base /2024/bye-npm-packages/ --out ../../dist/2024/bye-npm-packages",
     "dev": "slidev --open",
+    "build": "slidev build --base /2024/bye-npm-packages/ --out ../../dist/2024/bye-npm-packages",
     "export": "slidev export --output ../2024-11-06-bye-npm-packages.pdf"
+  },
+  "devDependencies": {
+    "@slidev/cli": "catalog:",
+    "@slidev/theme-default": "catalog:",
+    "playwright-chromium": "catalog:"
   }
 }

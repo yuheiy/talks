@@ -2,14 +2,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "rm -rf dist && npm run build --workspaces"
+    "build": "rm -rf dist && pnpm -r run build"
   },
-  "devDependencies": {
-    "@slidev/cli": "^0.50.0-beta.5",
-    "@slidev/theme-default": "latest",
-    "playwright-chromium": "^1.48.2"
-  },
-  "workspaces": [
-    "*/src"
-  ]
+  "packageManager": "pnpm@10.12.1"
 }
