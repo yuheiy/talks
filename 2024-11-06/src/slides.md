@@ -502,6 +502,7 @@ yuhei.yasuda@plaid-yuhei-yasuda shared-constants % npm run build
 │                                            │ - urban-potato                              │
 │                                            │ - verbose-succotash                         │
 ```
+
 </v-click>
 
 <style>
