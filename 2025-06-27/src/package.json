@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build --base /2025/accessibility-of-third-party-widgets/ --out ../../dist/2025/accessibility-of-third-party-widgets",
+    "dev": "slidev --open",
+    "export": "slidev export --output ../2025-06-27-accessibility-of-third-party-widgets.pdf"
+  }
+}
