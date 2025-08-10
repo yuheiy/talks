@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build --base /2024/tailwind-plugin-argument-mixins/ --out ../../dist/2024/tailwind-plugin-argument-mixins",
+    "dev": "slidev --open",
+    "export": "slidev export --output ../2024-03-12-tailwind-plugin-argument-mixins.pdf"
+  }
+}

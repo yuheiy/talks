@@ -1,0 +1,9 @@
+:root {
+  --slidev-transition-duration: 0s;
+  --slidev-code-font-size: 18px;
+  --slidev-code-line-height: 1.5;
+}
+
+.slidev-code {
+  overflow: hidden;
+}
